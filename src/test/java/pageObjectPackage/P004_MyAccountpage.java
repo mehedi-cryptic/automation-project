@@ -2,8 +2,9 @@ package pageObjectPackage;
 
 import driverPackage.PageDriver;
 import org.openqa.selenium.support.PageFactory;
+import utilitiesPackage.CommonMethods;
 
-public class P004_MyAccountpage {
+public class P004_MyAccountpage extends CommonMethods {
 
     public P004_MyAccountpage(){
         PageFactory.initElements(PageDriver.getCurrentDriver(),this);
