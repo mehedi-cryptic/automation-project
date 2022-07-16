@@ -1,8 +1,13 @@
 package pageObjectPackage;
 
-import driverPackage.PageDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
+import driverPackage.PageDriver;
+import io.qameta.allure.Step;
 import utilitiesPackage.CommonMethods;
+import utilitiesPackage.Take_Screenshot;
 
 public class P003_CreateAnAccountpage  extends CommonMethods {
     public P003_CreateAnAccountpage(){

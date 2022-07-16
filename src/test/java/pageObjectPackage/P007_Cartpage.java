@@ -1,5 +1,11 @@
 package pageObjectPackage;
 
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import driverPackage.PageDriver;
+import io.qameta.allure.Step;
 import utilitiesPackage.CommonMethods;
 
 public class P007_Cartpage extends CommonMethods {
